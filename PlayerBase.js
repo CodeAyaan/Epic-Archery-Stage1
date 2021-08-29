@@ -2,7 +2,7 @@ class PlayerBase{
     constructor(x,y,width,height){
     var Options = {isStatic:true}
     this.body = Bodies.rectangle(1200,500,50,50,Options)
-    this.image = loadImage("assets/base1.png")
+    this.image = loadImage("base1.png")
     this.width=width
     this.height = height;
      
