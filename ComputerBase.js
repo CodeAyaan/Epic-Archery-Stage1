@@ -2,7 +2,7 @@ class ComputerBase{
 constructor(x,y,width,height){
 var Options = {isStatic:true}
 this.body = Bodies.rectangle(200,500,50,50,Options)
-this.image = loadImage("assets/base2.png")
+this.image = loadImage("base2.png")
 this.width=width
 this.height = height;
  
